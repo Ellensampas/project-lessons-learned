@@ -1,1 +1,26 @@
-/* Iniciando projeto  */
+:root{
+    background-color: rgb(253, 251, 251);
+    font-family: Helvetica, sans-serif;
+}
+#cabecalho{
+    /* display: inline; */
+    background-color: skyblue ;
+    color: black;
+    font-size: 15px;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+}
+#minha_foto{
+    width: 150px;
+    padding-top: 08%;
+    padding-left: 02%;
+}
+#titulo{
+    text-align: center;
+}
+a{
+    display: flex;
+    padding-left: 3%;
+}
