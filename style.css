@@ -1,6 +1,7 @@
 body {
  background-color: rgb(253, 251, 251);
 }
+
 #cabecalho {
  background-color:black;
  color:white;
@@ -11,14 +12,17 @@ body {
  position:fixed;
  font-family: Helvetica, sans-serif;
 }
+
 #minha_foto {
  width:150px;
  padding-top:11%;
  padding-left:02%;
 }
+
 #titulo {
  text-align:center;
 }
+
 a {
  display:flex;
  padding-left:46%;
@@ -26,27 +30,26 @@ a {
  color:white;
  font-size: 20px;
 }
+
 #menu li {
  list-style-type:none;
  display:inline-block;
  margin:1%;
 }
+
 #menu {
  position:relative;
  left:40%;
  color:white;
  font-size: 20px;
 }
+
 #lista {
  display:flex;
  border: dotted;
 }
+
 h2 {
  padding-left:10%;
 }
-#licoes_aprendidas {
- border: solid;
-}
-#licoes_a_aprender {
- border: solid;
-}
+
