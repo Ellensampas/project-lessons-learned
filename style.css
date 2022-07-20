@@ -38,22 +38,26 @@ a {
 
 #lista {
   display: flex;
-  border: dotted;
+  border: dashed;
   position: relative;
-  top: 400px;
-  width: 40%;
+  top: 150px;
+  height: 400px;
+  width: 30%;
   float: left;
-  left: 3%;
+  font-size: 17px;
 }
 
 #estudos {
-  border: solid;
+  border: dashed;
   position: relative;
-  top: -230px;
+  top: 150px;
   display: flex;
-  width: 60%;
+  width: 27%;
+  height: 400px;
   float: right;
-  margin-right: 40%;
+  margin-right: 7%;
+  text-align: center;
+  font-size: 19px;
 }
 
 #minha_foto {
@@ -63,21 +67,26 @@ a {
 
 .sobre {
   display: flex;
-  border: solid;
+  border: dashed;
   position: relative;
   width: 26%;
   height: 400px;
   text-align: center;
   float: right;
-  top: 140px;
+  top: 150px;
+  font-size: 19px;
 }
 
 #rodape {
   position: fixed;
   background-color: black;
   border: solid;
-  height: 10%;
-  width: 100%;
+  height: 100px;
+  width: 150%;
   top: 95%;
   left: 0;
+  right: 0;
+  color: white;
+  text-align: center;
 }
+
