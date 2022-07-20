@@ -1,4 +1,4 @@
-:root{
+body{
     background-color: rgb(253, 251, 251);
     font-family: Helvetica, sans-serif;
 }
@@ -14,7 +14,7 @@
 }
 #minha_foto{
     width: 150px;
-    padding-top: 08%;
+    padding-top: 10%;
     padding-left: 02%;
 }
 #titulo{
@@ -23,4 +23,20 @@
 a{
     display: flex;
     padding-left: 3%;
+    text-decoration: none;
+}
+#menu li{
+    list-style-type: none;
+    display:inline-block;
+    margin: 1%;
+}
+#menu{
+    position: relative;
+    left: 40%;
+}
+#lista{
+    display: flex;
+}
+h2{
+    padding-left: 10%;
 }
