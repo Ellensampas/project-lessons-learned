@@ -50,12 +50,12 @@ a {
 #estudos {
   border: dashed;
   position: relative;
-  top: 150px;
+  top: -260px;
   display: flex;
   width: 27%;
   height: 400px;
-  float: right;
-  margin-right: 7%;
+  float: left;
+  margin-left: 40%;
   text-align: center;
   font-size: 19px;
 }
