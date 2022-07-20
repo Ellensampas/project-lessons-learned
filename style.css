@@ -84,8 +84,7 @@ a {
   height: 100px;
   width: 150%;
   top: 95%;
-  left: 0;
-  right: 0;
+  left: -20%;
   color: white;
   text-align: center;
 }
