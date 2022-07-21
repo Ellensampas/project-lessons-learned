@@ -41,7 +41,7 @@ a {
   display: flex;
   border: dashed;
   position: relative;
-  top: 150px;
+  top: 450px;
   height: 400px;
   width: 30%;
   float: left;
@@ -49,34 +49,28 @@ a {
   font-size: 17px;
 }
 
-#estudos {
-  border: dashed;
-  position: relative;
-  top: -260px;
-  display: flex;
-  width: 27%;
-  height: 400px;
-  float: left;
-  margin-right: 40%;
-  text-align: center;
-  font-size: 19px;
-}
-
 #minha_foto {
   width: 180px;
   margin-right: 0%;
 }
-
-.sobre {
-  display: flex;
-  border: dashed;
-  position: relative;
-  width: 26%;
-  height: 400px;
+.lado-esquerdo {
+  border:dashed ;
+  width: 500px;
+  height: 38%;
+  top: 15%;
+  position: absolute;
   text-align: center;
-  float: right;
-  top: 150px;
-  font-size: 19px;
+  font-size: 150%;
+}
+
+.lado-direito {
+  border: dashed ;
+  width: 500px;
+  left: 550px;
+  top: 15%;
+  font-size: 100%;
+  position: absolute;
+  text-align: center;
 }
 
 #rodape {
@@ -90,4 +84,3 @@ a {
   color: white;
   text-align: center;
 }
-
