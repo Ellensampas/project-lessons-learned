@@ -57,7 +57,8 @@ a {
 .lado-esquerdo {
   border: dashed;
   width: 500px;
-  height: 38%;
+  height: 30%;
+  margin-left: 15%;
   top: 15%;
   position: absolute;
   text-align: center;
@@ -67,7 +68,7 @@ a {
 .lado-direito {
   border: dashed;
   width: 500px;
-  left: 550px;
+  margin-left: 60%;
   top: 15%;
   font-size: 100%;
   position: absolute;
